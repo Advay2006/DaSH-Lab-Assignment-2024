@@ -5,7 +5,7 @@ import google.generativeai as genai
 import json
 import time
 
-fileobject = open(r"C:\Users\advay\Desktop\DaSH Lab Assignment\inputt.txt")
+fileobject = open("inputt.txt")
 
 genai.configure(api_key="AIzaSyBgKOWbufgSnHbPceVVsJ6thftiv1pt_A8")
 
